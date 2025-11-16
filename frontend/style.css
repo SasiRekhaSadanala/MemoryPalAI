@@ -1,0 +1,18 @@
+/* frontend/style.css */
+
+/* Hide the Streamlit hamburger menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Hide the Streamlit footer */
+footer {
+    visibility: hidden;
+}
+
+/* Style for the containers to make them look like cards */
+[data-testid="stVerticalBlock"] > [data-testid="stVerticalBlockBorderWrapper"] > [data-testid="stBlock"] > [data-testid="stVerticalBlock"] {
+    background-color: #1E2A47; /* Card background color */
+    border-radius: 10px;
+    padding: 1.5rem;
+}

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
+
+# VectorDB Data
+chroma_db/
+user_profile.json
+
+# Session Files
+frontend/.memorypal_session.json
